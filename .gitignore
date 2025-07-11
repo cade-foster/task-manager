@@ -1,0 +1,50 @@
+### Maven ###
+target/
+*.war
+*.jar
+
+### MAC ###
+*.DS_Store
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### Node.js ###
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+### TypeScript ###
+*.tsbuildinfo
+
+### Logs ###
+*.log
+logs/
+*.log.*
+
+### Spring Boot ###
+*.env
+*.properties
+*.yml
+*.yaml
+
+### Coverage ###
+coverage/
+*.lcov
+
+### Misc ###
+*.class
+*.swp
+*.swo
