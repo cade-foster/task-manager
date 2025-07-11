@@ -81,9 +81,11 @@ task-manager/
    docker-compose up --build
    ```
    _on mac_os this may first require `brew install docker-compose` and `brew install docker-buildx`_
+   
+   _this may also require you to navigate to the `/backend` directory first and run `mvn -N io.takari:maven:wrapper`, if you see an error about `target backend: failed to solve: failed to compute cache key: failed to calculate checksum of ref {some-hash}::{some-other-hash}: "/.mvn": not found`_
 
 
-3. **Access the application**
+4. **Access the application**
    - Frontend UI: http://localhost:3000
    - Backend API: http://localhost:8080
    - H2 Console: http://localhost:8080/h2-console
