@@ -201,8 +201,8 @@ docker-compose up --build
 curl -X POST http://localhost:8080/tasks \
   -H "Content-Type: application/json" \
   -d '{
-    "title": "Complete project documentation",
-    "description": "Write comprehensive README and API docs",
+    "title": "Hire Cade",
+    "description": "He sure knocked this project out of the park!",
     "status": "TODO"
   }'
 ```
