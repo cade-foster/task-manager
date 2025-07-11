@@ -73,7 +73,7 @@ task-manager/
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd taskmanager
+   cd task-manager
    ```
 
 2. **Build and run with Docker Compose**
